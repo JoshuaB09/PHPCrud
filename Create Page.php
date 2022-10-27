@@ -19,7 +19,8 @@ if (!empty($_POST)) {
     // Output message
     $msg = 'Created Successfully!';
 }
-?><?=template_header('Create')?>
+?>
+<?=template_header('Create')?>
 
 <div class="content update">
     <h2>Create Contact</h2>
